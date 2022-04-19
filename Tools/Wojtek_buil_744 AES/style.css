@@ -1,0 +1,108 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  overflow: auto; /* hide the scroll bars if not needed */
+}
+
+body
+{
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  color: #4e660d; /* i.e. font color */
+  
+  background-color: white;
+}
+
+.MMTitle
+{
+  position: relative;
+  
+  background-color: #617f10;
+  border-bottom: solid 1px #808080;
+  margin-bottom: 0px;
+  padding: 4px;
+
+  font-weight: bold;
+  font-size: 9pt;
+  color: white;
+}
+
+.MMItems
+{
+  position: fixed;
+  overflow: auto;
+  top: 24px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.MMItem
+{
+  position: relative;
+  padding: 2px 6px 2px 6px; /* padding around contents: top right bottom left */
+}
+
+.MMItem a
+{
+  color: #617f10;
+  text-decoration: none;
+}
+
+.MMItem a:hover
+{
+  text-decoration: underline;
+}
+
+
+
+.Info
+{
+  position: relative;
+  
+  /* let's mark that this is something special */
+  background-color: #606060;
+  
+  border-bottom: solid 1px #808080;
+  margin-bottom: 0px;
+  padding: 4px;
+  
+  font-weight: bold;
+  font-size: 9pt;
+  color: white;
+}
+
+.footer
+{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px 16px 10px 16px; /* padding around contents: top right bottom left */
+  
+  /* font-family: arial, sans-serif; */
+  font-size: 9pt;
+  font-weight: bold;
+  
+  /* let's mark that this is something special */
+  background-color: #606060;
+}
+
+.footer a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover
+{
+  text-decoration: underline;
+}

@@ -1,0 +1,148 @@
+
+html, body 
+{
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  /* color: #617f10; */
+  color: #4e660d;
+  
+  background-color: #e5eecc;
+}
+
+.GITop
+{
+  padding: 4px;
+  
+  font-weight: bold;
+  color: #617f10;
+}
+
+.GITextArea
+{
+  /* inherit doesn't do the trick (with IE) */
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  color: black;
+  
+  border-color: #617f10;
+  border-style: solid;
+}
+
+.GIButton, .LButton, .RButton
+{
+  position: relative;
+  
+  border: solid 1px #617f10;
+  background-color: #e5eecc;
+  color: #617f10;
+  
+  text-align: center;
+  vertical-align: middle;
+  
+  font-family: arial, sans-serif;
+  font-size: 9pt;
+  font-weight: bold;
+  
+  text-decoration: none;
+}
+
+.GIButton
+{
+  float: right;
+  height: 26px;
+  width: 64px;
+  
+  padding: 2px 12px 2px 12px;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+
+.LButton
+{
+  float: left;
+  height: 16px;
+  width: 42px;
+  padding: 4px 10px 4px 10px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.RButton
+{
+  float: right;
+  height: 16px;
+  width: 42px;
+  padding: 4px 10px 4px 10px;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+
+.GIButton:hover, .LButton:hover, .RButton:hover
+{
+  border: solid 1px #e5eecc;
+  background-color: #617f10;
+  color: #e5eecc;
+}
+
+
+.SITitle
+{
+  padding: 6px 6px 0px 6px; /* padding around contents: top right bottom left */
+
+  font-weight: bold;
+  font-size: 9pt;
+  color: #617f10;
+  /*
+  background-color: #617f10;
+  color: white;
+  */
+}
+
+.SIItems
+{
+  overflow: auto;
+  background-color: white;
+  border-color: #617f10;
+  border-style: solid;
+}
+
+.SIItems a
+{
+  color: #617f10;
+  
+  padding: 4px 4px 4px 4px; /* huh, no effect */
+  line-height: 150%; /* but this works */
+  
+  text-decoration: none;
+}
+
+.SIItems a:hover
+{
+  text-decoration: underline;
+}
+
+
+.TopPanel
+{
+  position: fixed;
+  top: 4px;
+  right: 4px;
+  bottom: 36px;
+  left: 4px;
+  border: solid 1px #617f10;
+  
+  background-color: white;
+  padding: 8px;
+}
+
+.FootPanel
+{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  
+  height: 32px;
+}

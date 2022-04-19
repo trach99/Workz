@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<import version="0.9">
+	<agent addtab="true" name="IO log" scriptfile=".\agents\IOLog.js" />
+<!--
+	<agent addtab="true" name="Toolkit" scriptfile=".\agents\Toolkit.py" />
+	<agent addtab="true" name="Toolkit Html" scriptfile=".\agents\HtmlWriter.py" 
+           viewtype="html" url=".\agents\HtmlWriter.html" />
+-->
+<!--
+	<agent addtab="false" name="TcpPiper" scriptfile=".\agents\TcpPiper.py" />
+    <agent addtab="true" name="Celltick" scriptfile=".\agents\Celltick.py" 
+           viewtype="html" url=".\agents\Celltick.html" />
+
+	<agent addtab="true" name="Mr. Eko" scriptfile=".\agents\Echo.vbs" />
+-->
+	</import>

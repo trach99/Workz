@@ -1,0 +1,73 @@
+/* leading dot defines a /class/, leading '#' defines an /id/ */
+
+body 
+{
+    font-family: "Arial";
+	font-style: normal;
+    font-size: 75%;
+}
+
+.expandable
+{
+	/* background-color: #f5f5ff; */
+	
+	/* border-style: none solid solid solid;
+	border-width: 1px;
+	border-color: #e5e5e5;
+	padding: 0px 4px 0px 4px; */
+
+	margin-left: 10px;
+	border-left: solid 1px #138399;
+	padding-left: 10px;
+	color: black;
+}
+
+.expander
+{
+	/* border-style: solid;
+	border-width: 1px;
+	border-color: #e5e5e5; */
+	padding: 4px;
+}
+
+.expander:hover
+{
+	background-color: #f5f5ff;
+}
+
+.title
+{
+	font-weight: bold;
+	color: black
+}
+
+.entry
+{
+	/* display: inline; */
+	font-weight: bold;
+	color: black
+}
+
+table.boxed {
+	margin-top: 8px;
+	margin-bottom: 4px;
+	border-collapse: collapse;
+    font-size: 100%;
+}
+
+table.boxed td { 
+	border: 1px solid #138399; 
+	padding-top: 2px;
+	padding-right: 16px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+}
+
+table.boxed tr.head td { 
+	font-weight: bold;
+	color: white;
+	background-color: #138399;
+	/* padding-left: 4px;
+	padding-right: 16px; */
+}
+
